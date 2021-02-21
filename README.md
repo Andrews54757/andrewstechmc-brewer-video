@@ -3,7 +3,7 @@ https://youtu.be/1_jSkyq-WOs
 
 My first video render. Feel free to explore and learn stuff.
 
-Rendered with DaVinci Resolve 16
+Rendered with DaVinci Resolve 17
 
 Read `TECHNIQUES.md` for a short explanation of the techniques used in the video
 
