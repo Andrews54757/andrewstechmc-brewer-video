@@ -2,6 +2,8 @@
 
 ## "3d" Text/info
 
+<img width="509" alt="Screen Shot 2021-02-20 at 10 49 39 PM" src="https://user-images.githubusercontent.com/13282284/108615057-2966eb00-73ce-11eb-9c8b-6920216c9b65.png">
+
 This was done with planar tracking in Resolve's Fusion tab. I used [this](https://www.youtube.com/watch?v=aJaGZ2a2BwQ) nice tutorial to learn how to do this.
 
 However, not all surfaces are trackable. For example, you can't track air, nor can you track glass nicely. So, here is a technique I used to be able to do so:
@@ -16,6 +18,8 @@ However, not all surfaces are trackable. For example, you can't track air, nor c
 
 ## Transparent Blocks Effect
 
+<img width="433" alt="Screen Shot 2021-02-20 at 10 50 14 PM" src="https://user-images.githubusercontent.com/13282284/108615056-2966eb00-73ce-11eb-9422-f08596400895.png">
+
 Normally, this is a difficult effect to pull off as traditionally, you would have to do it "manually" by either seperating your contraption to seperate groups, or using a texture pack. Not only is it difficult, it is also pretty limiting (ie, you can't do the effect to moving things like slimestone, and entities are hard to overcome).
 
 As a result, I ended up just programming a new feature called `selectiveBlocksRendering` in [Tweakfork](https://github.com/Andrews54757/tweakfork). With this, you can make blocks selectively render/not render, depending on the positions you add in the white/blacklists. It also is able to track piston movements and update the lists accordingly, so doing this effect on slimestone is now possible.
@@ -23,6 +27,8 @@ As a result, I ended up just programming a new feature called `selectiveBlocksRe
 Fun fact: This feature was the main reason why I decided to make the potion video. DesktopFolder needed the mod for rendering the [3 way bedrock breaker video](https://www.youtube.com/watch?v=kTRjq0kCfHU) and I needed motivation to actually make it.
 
 ## Codecs
+
+<img width="508" alt="Screen Shot 2021-02-20 at 10 51 05 PM" src="https://user-images.githubusercontent.com/13282284/108615055-28ce5480-73ce-11eb-80a7-2f2b8e8bac57.png">
 
 Youtube, by default, re-encodes all videos to avc1. This results in grainy videos sometimes, which is unacceptable when you have shadows in your video. However, some videos are encoded to vp09 which has higher quality compression. But, you can't choose what codec you want to use when uploading to youtube and the conditions for that are not documented.
 
