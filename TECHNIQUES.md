@@ -20,9 +20,9 @@ However, not all surfaces are trackable. For example, you can't track air, nor c
 
 <img width="433" alt="Screen Shot 2021-02-20 at 10 50 14 PM" src="https://user-images.githubusercontent.com/13282284/108615056-2966eb00-73ce-11eb-9422-f08596400895.png">
 
-Normally, this is a difficult effect to pull off as traditionally, you would have to do it "manually" by either seperating your contraption to seperate groups, or using a texture pack. Not only is it difficult, it is also pretty limiting (ie, you can't do the effect to moving things like slimestone, and entities are hard to overcome).
+Normally, this is a difficult effect to pull off. Traditionally, you would have to do it "manually" by either seperating your contraption to seperate contraptions in game, or by using a custom texture pack. Not only is this difficult, it is also pretty limiting (ie, you can't do the effect to moving things like slimestone, and entities are hard to overcome).
 
-As a result, I ended up just programming a new feature called `selectiveBlocksRendering` in [Tweakfork](https://github.com/Andrews54757/tweakfork). With this, you can make blocks selectively render/not render, depending on the positions you add in the white/blacklists. It also is able to track piston movements and update the lists accordingly, so doing this effect on slimestone is now possible.
+To make this effect easier, I programmed a new feature called `selectiveBlocksRendering` in [Tweakfork](https://github.com/Andrews54757/tweakfork). With this, you can make blocks selectively render/not render, depending on the positions you add in the white/blacklists. In addition, since it is able to track piston movements and update the lists accordingly, doing this effect on slimestone is now possible.
 
 Fun fact: This feature was the main reason why I decided to make the potion video. DesktopFolder needed the mod for rendering the [3 way bedrock breaker video](https://www.youtube.com/watch?v=kTRjq0kCfHU) and I needed motivation to actually make it.
 
